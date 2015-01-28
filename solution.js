@@ -10,7 +10,7 @@ function squaresOfMax(a, b, c) {
     if(a>=b && c>=b){
         return (a*a)+(c*c);
     }
-
+//test test
   // Write a function that takes three numbers and returns
   // sum of squares of two largest
 }
