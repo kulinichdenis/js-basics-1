@@ -1,6 +1,5 @@
 function squaresOfMax(a, b, c) {
-
-    function(a,b,c){
+	
     if(a>c && b>c){
         return (a*a)+(b*b);
     }
