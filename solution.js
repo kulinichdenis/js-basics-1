@@ -67,6 +67,7 @@ function fizzBuzz() {
 
 function chessBoard(size) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
     if(size === 0){return "";}
     if(size === 1){return " ";}
@@ -92,10 +93,8 @@ function chessBoard(size) {
     }
 
     return string;
-  // Write a program that returns a string that represents an 8×8 grid,
-=======
+ 
   // Write a program that creates a string that represents an 8×8 grid,
->>>>>>> be8d148d538cd5e67d4568f0068eb0d0a17f85ab
   // using newline characters to separate lines. At each position of the
   // grid there is either a space or a “#” character. The characters
   // should form a chess board.
