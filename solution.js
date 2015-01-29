@@ -23,12 +23,13 @@ function drawTriangle() {
         while(k < i){
             string+='#';
             k++;
+			console.log(string);
         }
 		string+='\n';
         k=0;
         i++;
     }
-    console.log(string);
+    
 
   // Write a loop that makes seven calls to console.log to output the following triangle:
   //
