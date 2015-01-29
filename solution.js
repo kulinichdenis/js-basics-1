@@ -23,11 +23,11 @@ function drawTriangle() {
         while(k < i){
             string+='#';
             k++;
-			console.log(string);
         }
 		string+='\n';
         k=0;
         i++;
+		console.log(string);
     }
     
 
