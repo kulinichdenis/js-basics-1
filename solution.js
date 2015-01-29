@@ -44,17 +44,23 @@ function drawTriangle() {
 function fizzBuzz() {
 
     for(var i=1; i<=100; i++){
-        if(!(i%3)){
-            console.log('Fizz');
-        }
-        if(!(i%5)){
-            console.log('Buzz');
-        }
         if((!(i%3) && !(i%5))){
             console.log('FizzBuzz');
+            continue;
+        }
+
+        if(!(i%3)){
+            console.log('Fizz');
+            continue;
+        }
+
+        if(!(i%5)){
+            console.log('Buzz');
+            continue;
         }
         console.log(i);
     }
+
 
   // Write a program that uses console.log to print all the numbers from 1 to 100,
   // with two exceptions. For numbers divisible by 3, print "Fizz" instead of the number,
