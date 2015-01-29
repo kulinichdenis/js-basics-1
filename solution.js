@@ -17,7 +17,7 @@ function squaresOfMax(a, b, c) {
 function drawTriangle() {
 
     var i = 0;
-    var k = 0;
+    var k = 1;
     var string = "";
     while(i < 8){
         while(k < i){
