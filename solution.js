@@ -16,11 +16,11 @@ function squaresOfMax(a, b, c) {
 
 function drawTriangle() {
 
-    var i=0
+    var i = 0;
     var k = 0;
-    var string=" ";
-    while(i<8){
-        while(k<i){
+    var string = "";
+    while(i < 8){
+        while(k < i){
             string+='#';
             k++;
         }
@@ -71,7 +71,7 @@ function chessBoard(size) {
     if(size === 1){return " ";}
 
     var sizeInner = size || 8;
-    var string="";
+    var string = "";
     var flag = true;
 
     for(var i = 0; i < sizeInner; i++){
