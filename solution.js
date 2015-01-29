@@ -25,7 +25,6 @@ function drawTriangle() {
         i++;
     }
     
-
   // Write a loop that makes seven calls to console.log to output the following triangle:
   //
   // #
@@ -88,7 +87,11 @@ function chessBoard(size) {
                 flag = true;
             }
         }
-        string += '\n';
+        
+		if(i < sizeInner-1){
+			string += '\n';
+		}
+		
         flag = !firstFlag;
     }
 
