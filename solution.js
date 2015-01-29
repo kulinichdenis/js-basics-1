@@ -16,18 +16,13 @@ function squaresOfMax(a, b, c) {
 
 function drawTriangle() {
 
-    var i = 0;
-    var k = 1;
-    var string = "";
+    var i = 1;
+    var string = "#";
+
     while(i < 8){
-        while(k < i){
-            string+='#';
-            k++;
-        }
-		string+='\n';
-        k=0;
+        console.log(string+'\n');
+        string+='#';
         i++;
-		console.log(string);
     }
     
 
