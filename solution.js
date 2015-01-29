@@ -20,11 +20,11 @@ function drawTriangle() {
     var k = 0;
     var string=" ";
     while(i<8){
-        string+='\n';
         while(k<i){
             string+='#';
             k++;
         }
+		string+='\n';
         k=0;
         i++;
     }
