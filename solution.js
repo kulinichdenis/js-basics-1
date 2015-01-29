@@ -66,8 +66,6 @@ function fizzBuzz() {
 }
 
 function chessBoard(size) {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	
     if(size === 0){return "";}
     if(size === 1){return " ";}
