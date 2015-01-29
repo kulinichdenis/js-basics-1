@@ -18,7 +18,7 @@ function drawTriangle() {
 
     var i=0
     var k = 0;
-    var string="";
+    var string=" ";
     while(i<8){
         string+='\n';
         while(k<i){
