@@ -20,7 +20,7 @@ function drawTriangle() {
     var string = "#";
 
     while(i < 8){
-        console.log(string+'\n');
+        console.log(string);
         string+='#';
         i++;
     }
